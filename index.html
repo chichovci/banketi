@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Фирмено парти за 30–45 души · Ресторант „Чичовци“, Пловдив</title>
+<meta name="description" content="Ресторант „Чичовци“ в Пловдив може да бъде само ваш за вечерта – коледно фирмено парти или тиймбилдинг за 30–45 души. Камина, музика по ваш избор, без други гости. ☎ 0895 111 277">
+<meta property="og:title" content="Фирмено парти за 30–45 души – Ресторант „Чичовци“, Пловдив">
+<meta property="og:description" content="Целият ресторант само за вашия екип. Камина, музика по ваш избор. ☎ 0895 111 277">
+<meta property="og:image" content="https://chichovci.github.io/banketi/img/zala-vecher.jpg">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1B332D">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,600&family=Alegreya+Sans:wght@400;500;700&display=swap&subset=cyrillic" rel="stylesheet">
+<style>
+:root{
+  --pine:#1B332D; --pine-2:#23413A; --gold:#E9C88A; --brass:#A57B2C;
+  --linen:#F8F6F1; --paper:#FFFFFF; --ink:#1D1B19; --muted:#6B655D; --line:#E2DCD1; --red:#A8261D;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--linen);color:var(--ink);font:18px/1.5 "Alegreya Sans",system-ui,sans-serif;-webkit-text-size-adjust:100%;padding-bottom:84px}
+img,video{display:block;max-width:100%}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 18px}
+h1,h2{font-family:Lora,Georgia,serif;font-style:italic;font-weight:600;line-height:1.15;margin:0}
+
+/* hero */
+.hero{position:relative;min-height:88vh;display:flex;align-items:flex-end;color:#fff;background:#111 60% 72%/cover no-repeat;background-image:url(img/zala-vecher.jpg)}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05) 25%,rgba(10,22,18,.88) 78%)}
+.hero .wrap{position:relative;padding-bottom:36px;width:100%}
+.brand{font:500 15px/1 "Alegreya Sans",sans-serif;letter-spacing:.04em;color:var(--gold);margin-bottom:14px}
+.hero h1{font-size:clamp(34px,8.5vw,56px);color:var(--gold)}
+.hero p{font-size:clamp(19px,4.6vw,24px);margin:12px 0 22px;color:#F4E9D2}
+
+.call{display:inline-flex;align-items:center;gap:12px;background:var(--gold);color:var(--pine);text-decoration:none;font-weight:700;font-size:21px;padding:15px 24px;border-radius:14px;box-shadow:0 6px 22px rgba(0,0,0,.25)}
+.call svg{width:24px;height:24px}
+.call small{font-weight:500;font-size:16px;opacity:.85}
+.call:focus-visible{outline:3px solid #fff;outline-offset:3px}
+
+section{padding:46px 0}
+h2{font-size:clamp(28px,6.5vw,38px);color:var(--pine);margin-bottom:18px}
+.lead{font-size:20px;margin:0 0 8px}
+
+.video{background:var(--pine);padding:28px 0}
+.video video{width:100%;max-width:440px;margin:0 auto;border-radius:12px;aspect-ratio:4/5;background:#000}
+
+ul.get{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:14px}
+ul.get li{display:flex;gap:14px;align-items:flex-start;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+ul.get .i{flex:0 0 34px;height:34px;border-radius:50%;background:var(--pine);color:var(--gold);display:grid;place-items:center;font-size:18px}
+ul.get b{display:block;font-size:19px}
+ul.get span{color:var(--muted)}
+
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.gallery img{width:100%;height:100%;object-fit:cover;border-radius:8px;aspect-ratio:4/3}
+.gallery .big{grid-column:1/-1}
+.cap{color:var(--muted);font-size:16px;margin:10px 0 0}
+
+ol.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:12px}
+ol.steps li{counter-increment:s;display:flex;gap:14px;align-items:baseline}
+ol.steps li::before{content:counter(s);flex:0 0 32px;height:32px;border-radius:50%;border:2px solid var(--brass);color:var(--brass);font-weight:700;display:grid;place-items:center}
+
+.final{background:var(--pine);color:#F4E9D2;text-align:center}
+.final h2{color:var(--gold)}
+.final p{margin:0 0 22px}
+
+footer{padding:28px 0 18px;color:var(--muted);font-size:16px;text-align:center}
+footer a{color:var(--pine-2)}
+footer .links{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center;margin-top:8px}
+
+.sticky{position:fixed;left:0;right:0;bottom:0;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(27,51,45,.97);display:flex;justify-content:center;z-index:5}
+.sticky .call{width:100%;max-width:520px;justify-content:center;padding:13px 18px;font-size:19px;box-shadow:none}
+
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="brand">Ресторант „Чичовци“ · Пловдив</div>
+    <h1>„Чичовци“ може да бъде ваш за вечерта</h1>
+    <p>Фирмено парти, коледен банкет или тиймбилдинг за 30–45 души – целият ресторант само за вашия екип.</p>
+    <a class="call" href="tel:+359895111277" aria-label="Обадете се на 0895 111 277">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+      0895 111 277
+    </a>
+  </div>
+</header>
+
+<div class="video">
+  <div class="wrap">
+    <video src="banket.mp4" poster="img/poster.jpg" controls muted playsinline preload="metadata" aria-label="Видео: залата на ресторант „Чичовци“, подредена за банкет"></video>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2>Вашата вечер при нас</h2>
+    <p class="lead">Ще бъдете само вие и колегите ви, без други гости. Ние ще запалим камината и ще се погрижим за трапезата. Вие доведете и онзи колега, който все е зает, а после пита как е минало.</p>
+    <ul class="get">
+      <li><span class="i">◆</span><div><b>Целият ресторант е ваш</b><span>За групи от 30 до 45 души, без други гости в залата.</span></div></li>
+      <li><span class="i">◆</span><div><b>Камина и подредена маса</b><span>Посрещаме ви с топла зала и маса, подредена за празник.</span></div></li>
+      <li><span class="i">◆</span><div><b>Музика по ваш избор</b><span>Пускате своя плейлист – вечерта е ваша.</span></div></li>
+      <li><span class="i">◆</span><div><b>И в неделя</b><span>За фирмени събития нямаме почивен ден през декември.</span></div></li>
+      <li><span class="i">◆</span><div><b>Край реката, до Новотел</b><span>бул. „Марица“ 90 – лесно се стига от всяка част на Пловдив.</span></div></li>
+    </ul>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <h2>Залата</h2>
+    <div class="gallery">
+      <img class="big" src="img/zala-vecher.jpg" alt="Вечерната зала с дълга маса за банкет и запалена камина" loading="lazy" width="1600" height="1200">
+      <img src="img/masa-karti.jpg" alt="Подредена маса с прибори и чаши" loading="lazy" width="1600" height="1200">
+      <img src="img/lampa.jpg" alt="Маса с лампа и златна бордюра" loading="lazy" width="1600" height="1200">
+      <img class="big" src="img/bar.jpg" alt="Барът и подредените маси вечер" loading="lazy" width="1600" height="1200">
+      <img class="big" src="img/zala-den.jpg" alt="Цялата зала през деня, с камината в ъгъла и прозорците към реката" loading="lazy" width="1536" height="1152">
+    </div>
+    <p class="cap">Последната снимка е залата през деня – така изглежда в обичайна подредба.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <h2>Как става</h2>
+    <ol class="steps">
+      <li>Обаждате се на 0895 111 277 – казваме ви свободните вечери и предлагаме меню и цена за вашата група.</li>
+      <li>Избирате вечер и меню.</li>
+      <li>Потвърждавате с аванс, а броя гости уточняваме няколко дни преди събитието.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>Изберете си вечер</h2>
+    <p>Декемврийските вечери се запълват бързо. Обадете се, за да запазите вашата.</p>
+    <a class="call" href="tel:+359895111277">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+      0895 111 277
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Ресторант „Чичовци“ · бул. „Марица“ 90, Пловдив
+    <div class="links">
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D1%82%20%D0%A7%D0%B8%D1%87%D0%BE%D0%B2%D1%86%D0%B8%20%D0%9F%D0%BB%D0%BE%D0%B2%D0%B4%D0%B8%D0%B2&amp;query_place_id=ChIJj45PDpbRrBQRhvUfZPUjuBg" target="_blank" rel="noopener">Как да стигнете</a>
+      <a href="https://chichovci.github.io/chichovtsi-menu/index-view.html" target="_blank" rel="noopener">Цялото меню</a>
+      <a href="https://www.facebook.com/Chichovci" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </div>
+</footer>
+
+<div class="sticky">
+  <a class="call" href="tel:+359895111277">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+    Обадете се · 0895 111 277
+  </a>
+</div>
+</body>
+</html>
